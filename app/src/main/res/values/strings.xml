@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="quiz_question">questão 1</string>
+    <string name="quiz_answer_1">resposta 1</string>
+    <string name="quiz_answer_2">resposta 2</string>
+    <string name="quiz_answer_3">resposta 3</string>
+    <string name="welcome">Aperte aqui para começar!!!</string>
+    <string name="Respcerta1">Cocnlave</string>
+</resources>
