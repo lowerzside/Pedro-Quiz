@@ -17,7 +17,10 @@ public class Activity2 extends AppCompatActivity {
     private Button mButtonChoice2;
     private Button mButtonChoice3;
     private TextView question;
+<<<<<<< HEAD
     private Button mButtonChoice4;
+=======
+>>>>>>> origin/master
 
     private String mAnswer;
     private int mQuestionNumber = 0;
@@ -34,7 +37,10 @@ public class Activity2 extends AppCompatActivity {
         mButtonChoice1 = (Button) findViewById(R.id.A1);
         mButtonChoice2 = (Button) findViewById(R.id.A2);
         mButtonChoice3 = (Button) findViewById(R.id.A3);
+<<<<<<< HEAD
         mButtonChoice4 = (Button) findViewById(R.id.A4);
+=======
+>>>>>>> origin/master
         updateQuestion();
 
         mButtonChoice1.setOnClickListener(new View.OnClickListener() {
@@ -43,9 +49,12 @@ public class Activity2 extends AppCompatActivity {
                 if (mButtonChoice1.getText() == mAnswer) {
                     updateQuestion();
                 }
+<<<<<<< HEAD
                 else{
                     updateQuestion();
                 }
+=======
+>>>>>>> origin/master
             }
         });
 
@@ -55,9 +64,12 @@ public class Activity2 extends AppCompatActivity {
                 if (mButtonChoice2.getText() == mAnswer) {
                     updateQuestion();
                 }
+<<<<<<< HEAD
                 else{
                     updateQuestion();
                 }
+=======
+>>>>>>> origin/master
             }
         });
 
@@ -67,6 +79,7 @@ public class Activity2 extends AppCompatActivity {
                 if (mButtonChoice3.getText() == mAnswer) {
                     updateQuestion();
                 }
+<<<<<<< HEAD
                 else{
                     updateQuestion();
                 }
@@ -81,6 +94,8 @@ public class Activity2 extends AppCompatActivity {
                         }
                     }
                 });
+=======
+>>>>>>> origin/master
             }
         });}
 
@@ -89,7 +104,10 @@ public class Activity2 extends AppCompatActivity {
         mButtonChoice1.setText(Question.getChoice1(mQuestionNumber));
         mButtonChoice2.setText(Question.getChoice2(mQuestionNumber));
         mButtonChoice3.setText(Question.getChoice3(mQuestionNumber));
+<<<<<<< HEAD
         mButtonChoice4.setText(Question.getChoice4(mQuestionNumber));
+=======
+>>>>>>> origin/master
 
         mAnswer = Question.getCorrectAnswer(mQuestionNumber);
         mQuestionNumber++;

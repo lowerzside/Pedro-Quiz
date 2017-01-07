@@ -64,8 +64,11 @@ public class Question {
     }
 
 
+<<<<<<< HEAD
     public static String getChoice4(int a) {
         String choice4 = Respostas[a][0];
         return choice4;
     }
+=======
+>>>>>>> origin/master
 }
